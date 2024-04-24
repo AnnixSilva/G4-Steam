@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react';
 import Navbar from './Navbar'; 
+import Foooter from './Foooter';
+import Pesquisa from './Pesquisa';
 import { ReactComponent as ImageBanner } from './ImageBanner.svg';
 import { ReactComponent as Profile } from './profile.svg';
-import { ReactComponent as Ecolife } from './Ecolife.svg';
-
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <Navbar />
       <Profile div className='profile'/>
       <ImageBanner />
-      <Ecolife div className='eco'/>
+      <Foooter />
+      <Pesquisa />
     </div>
   );
 }
