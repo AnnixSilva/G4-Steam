@@ -1,21 +1,14 @@
-// Importando o React e alguns componentes do react-bootstrap
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
-// Importando o CSS do Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// Definindo um componente funcional chamado LoginForm
 const LoginForm = () => {
 
-  // Função para lidar com o evento de login
   const handleLogin = (e) => {
     e.preventDefault();
-    // Aqui você pode adicionar lógica para autenticar o usuário
   };
 
-  // Renderizando o formulário de login
   return (
-    // Div que contém o formulário de login
     <div className="login-form">
       <h2>Entre com sua conta</h2>
      
@@ -45,5 +38,4 @@ const LoginForm = () => {
   );
 };
 
-// Exportando o componente LoginForm para ser usado em outros arquivos
 export default LoginForm;
