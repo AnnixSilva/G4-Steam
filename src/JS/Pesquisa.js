@@ -1,5 +1,5 @@
 import React from "react";
-import "./Foooter.css";
+import "../CSS/Foooter.css";
 
 function Pesquisa() {
     return (

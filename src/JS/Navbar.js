@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { ReactComponent as Ecolife } from './Ecolife.svg';
+import { ReactComponent as Ecolife } from '../assets/Ecolife.svg';
+import { ReactComponent as User } from '../assets/user.svg';
+import{ Link } from 'react-router-dom'
 
 
 function Navbar() {
@@ -14,12 +16,12 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link" href="/">Home</a>
-            <a className="nav-link" href="Loja">Loja</a>       
-            <a className="nav-link" href="/Serviços">Serviços</a>
-            <a className="nav-link" href="/Parceria">Parceiria</a>
-            <a className="nav-link" href="/Sobre">Sobre-nós</a>
-            <a className="CAD" href="/Cadastre-se">Cadastre-se</a>
+            <Link className="nav-link" to="/">Home</Link>
+            <Link className="nav-link" to="Loja">Loja</Link>       
+            <Link className="nav-link" to="/Serviços">Serviços</Link>
+            <Link className="nav-link" to="/Parceria">Parceria</Link>
+            <Link className="nav-link" to="/Sobre">Sobre-nós</Link>
+            <Link className="nav-user" to="/Login"><User/></Link>
           </div>
         </div>
       </div>

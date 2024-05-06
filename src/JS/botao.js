@@ -1,5 +1,5 @@
 import React from 'react';
-import "./botao.css";
+import "../CSS/botao.css";
 
 class MeuBotao extends React.Component {
   handleClick = () => {

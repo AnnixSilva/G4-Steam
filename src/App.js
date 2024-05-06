@@ -1,43 +1,32 @@
 import './App.css';
 import React from 'react';
-import Navbar from './Navbar'; 
-import Foooter from './Foooter';
-import MeuBotao from './botao';
-import Parceria from './Parcerias'; 
-import Loja from './Loja';
-import Servico from './Serviços';
-import Sobre from './Sobre';
-import LoginForm from './loginn';
-import { ReactComponent as ImageBanner } from './ImageBanner.svg';
-import { ReactComponent as Profile } from './profile.svg';
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import Cadastro from './cadastre';
+import Navbar from './JS/Navbar'; 
+import Home from './JS/Home';
+import Foooter from './JS/Foooter';
+import Cadastro from './JS/cadastre';
+import Sobre from './JS/Sobre';
+import LoginForm from './JS/login';
+import Loja from './JS/Loja';
+import { ReactComponent as Profile } from './assets/profile.svg';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<LoginForm/>} /> 
-          <Route path='/Cadastre-se' element={<Cadastro/>} /> 
-          <Route path='/Loja' element={<Loja/>} /> 
-          <Route path='/Sobre' element={<Sobre/>} /> 
-          <Route path='/Serviços' element={<Servico/>} /> 
-          <Route path='/Parceria' element={<Parceria/>} /> 
-          <Route path='/Sobre' element={<Sobre/>} /> 
-        </Routes>
-      </BrowserRouter>
-
-
-
-      <Navbar />
-      <Profile div className='profile'/>
-      <ImageBanner />
-      <MeuBotao  />
-      <Foooter />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Profile div className='profile'/>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/Cadastre-se' element={<Cadastro/>}/>
+            <Route path='/Sobre' element={<Sobre/>}/>
+            <Route path='/Login' element={<LoginForm/>}/>
+            <Route path='/Loja' element={<Loja/>}/>
+          </Routes>
+        <Foooter />
+      </div>
+    </Router>
   );
 }
 

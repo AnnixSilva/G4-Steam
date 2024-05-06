@@ -1,0 +1,37 @@
+.Sob{
+    position: relative;
+    margin-top: 100px;
+    text-align: left;
+    font-size: 20px;
+    width: 1000px;
+    left: 300px;
+    top: -30px;   
+    font-family: "verdana";
+}
+
+.EcoGreen{
+    position: relative;
+    margin-top: 100px;
+    width: 400px;
+    height: 200px;
+    right: 130px;
+}
+
+.lixo{
+    position: relative;
+    top: -66px;
+    width: 330px;
+    height: 230px;
+    left: 740px;
+}
+
+.linhaSOBRE{
+    position: relative;
+    background-color: rgb(81, 209, 81);
+    padding: 1px;
+    top: -47px;
+    left: 220px;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      
+}
