@@ -11,3 +11,8 @@
     top: -138px;
     background-color: white;
 }
+.linha{
+    position: relative;
+    z-index: 100px;
+    right: px;
+}

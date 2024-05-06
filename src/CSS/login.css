@@ -74,7 +74,7 @@
     border-radius: 5px;
     background-color: #fff;
     cursor: pointer;
-    color: black;
+    color: rgba(0, 0, 0, 0.836);
     font-size: 18px;
     text-align: center;
   }
@@ -84,7 +84,7 @@
   }
   
   .google-login{
-    margin-bottom: 20px;
+    margin-bottom: 18px;
   }
 
   .register-link {
