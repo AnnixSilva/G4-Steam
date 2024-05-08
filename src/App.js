@@ -7,7 +7,6 @@ import Cadastro from './JS/cadastre';
 import Sobre from './JS/Sobre';
 import LoginForm from './JS/login';
 import Loja from './JS/Loja';
-import { ReactComponent as Profile } from './assets/profile.svg';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
@@ -16,7 +15,6 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Profile div className='profile'/>
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/Cadastre-se' element={<Cadastro/>}/>

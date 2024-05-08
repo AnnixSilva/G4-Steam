@@ -3,8 +3,17 @@ import '../App.css'
 
 function Home(){
     return(
-        <ImageBanner />
+        <body>
+            <div className='Ho'>
+            <ImageBanner />
+            </div>
+            <hr className='homeLinha'></hr>
+            <div className='local'>
+                <h1>Localizar local de descarte correto.</h1>
+
+            </div>
+        </body>
     )
 }
 
-export default Home
+export default Home;

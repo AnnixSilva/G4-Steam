@@ -1,18 +1,41 @@
 .Nome{
     position: relative;
-    color: rgb(11, 85, 11);
+    color: rgb(0, 0, 0);
     z-index: 100;
+    top: 27px;
+    font-family: "Arial";
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .banner{
     position: relative;
     width: 1200px;
     height: 1000px;
-    top: -138px;
+    top: -90px;
     background-color: white;
 }
-.linha{
+
+.baner{
+    position: relative;
+    top: -239px;
+}
+
+.baner3{
+    position: relative;
+    top: -130px;
+}
+
+.preco {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.linhaRox{
     position: relative;
     z-index: 100px;
-    right: px;
+    left: 100px;
+    top: 89px;
 }
