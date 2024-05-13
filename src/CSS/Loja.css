@@ -1,36 +1,53 @@
 .Nome{
     position: relative;
-    color: rgb(0, 0, 0);
+    color: #4E6137;
     z-index: 100;
     top: 27px;
-    font-family: "Arial";
-    font-size: 50px;
+    font-family: "Hepta Sleb";
+    font-size: 75px;
     font-weight: bold;
 }
 
 .banner{
     position: relative;
-    width: 1200px;
-    height: 1000px;
-    top: -90px;
+    width: 70%;
+    height: 70%;
+    top: 79px;
     background-color: white;
 }
 
 .baner{
     position: relative;
-    top: -239px;
+    top: 100px;
 }
 
 .baner3{
     position: relative;
-    top: -130px;
+    top: 120px;
 }
 
 .preco {
+    font-size: 30px;
     display: flex;
     position: relative;
     flex-direction: row;
-    gap: 90px;
+    gap: 240px;
+    left: 150px;
+    top: -60px;
+}
+
+.texto{
+    gap: 110px;
+    font-family: 'Kodchasan';
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 55px;
+    right: 1400px;
+    font-size: 110px;
+    white-space: nowrap;
+
+
 }
 
 .linhaRox{

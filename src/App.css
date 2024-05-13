@@ -73,10 +73,10 @@
 
 }
 
-.nav-user{
-  position: relative;
-  left: 1090px;
-  top: 5px;
+.nav-user {
+  position: absolute; /* Use position: absolute em vez de position: relative para posicionar em relação ao contêiner pai */
+  right: 29px; /* Posicione o ícone 10px da borda direita do contêiner pai */
+  top: 22px; /* Posicione o ícone 10px da borda superior do contêiner pai */
 }
 
 .homeLinha{

@@ -16,7 +16,15 @@ function Loja (){
             <p>R&#36;12,50</p>
             <p>R&#36;28,30</p>
             <p>R&#36;5,89</p>
+            <div className="texto">
+            <h4>Talheres de madeira</h4>
+            <h4>Copo ecológico com tampa</h4>
+            <h4>Kit ecológico de madeira</h4>
+            <h4>Canudo de papel</h4>
+        </div>    
         </ul>
+       
+
         </body>
     )
 }
